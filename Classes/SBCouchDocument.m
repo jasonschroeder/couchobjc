@@ -184,7 +184,7 @@
         if(rev)
             [revs addObject:rev];
     }
-    return [revs autorelease];
+    return revs;
 }
 - (NSString*)revision {
     // pre 0.9 code
